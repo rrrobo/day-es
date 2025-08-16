@@ -1,4 +1,4 @@
-import { fix0 } from "https://js.sabae.cc/fix0.js";
+import { fix0 } from "./fix0.min.js";
 
 class Time {
   constructor(time, min, sec) {

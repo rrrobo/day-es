@@ -1,6 +1,6 @@
-import { fix0 } from "https://js.sabae.cc/fix0.js";
-import { WAREKI_ID, WAREKI_FIRST_YEAR, WAREKI_JA, year2wareki } from "./WAREKI.js";
-import { TimeZone } from "./TimeZone.js";
+import { fix0 } from "./fix0.min.js";
+import { WAREKI_ID, WAREKI_FIRST_YEAR, WAREKI_JA, year2wareki } from "./WAREKI.min.js";
+import { TimeZone } from "./TimeZone.min.js";
 
 const toHankaku = (s) => String.fromCharCode(s.charCodeAt(0) - 0xfee0);
 

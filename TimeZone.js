@@ -1,4 +1,4 @@
-import { Time } from "./Time.js";
+import { Time } from "./Time.min.js";
 
 class TimeZone {
   constructor(time, min) {
